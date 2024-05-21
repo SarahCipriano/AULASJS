@@ -32,6 +32,7 @@ if (tipoDoFuncionario == "estagiario" || tipoDoFuncionario == "clt") {
 }
 */
 
+/*
 var dia;
 switch (new Date() .getDay()) {
     case 0:
@@ -50,3 +51,35 @@ switch (new Date() .getDay()) {
         dia = "sábado"; break;
 }
 console.log("Hoje é " + dia);
+*/ 
+
+//exemplo for
+/*
+ const carro = ["Fiat", "Volvo","BMW"];
+ for (var i=0;i<carro.length;i++){
+  document.write(carro[i] + "<br>");
+ }
+ document.getElementById("demo").innerHTML = carro;
+ */
+
+ /*
+ var txt = "";
+ var pessoa = {fname:"John", name:"José", idade:25}
+ for (var x in pessoa){
+  txt = txt + " " + pessoa[x];
+ }
+ */
+
+ /*
+ var somapares = 0;
+ var i = 1;
+
+ while(true) {
+  if (i % 2 != 0)
+    continue;
+  somapares +=i;
+  if (i == 10)
+    break;
+  i++;
+ }
+ */
