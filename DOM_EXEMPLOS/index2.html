@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script2.js"></script>
+</head>
+<body>
+    <p>Lista</p>
+    <ul>
+        <li>bebidas</li>
+        <li>comida</li>
+    </ul>
+    <p>O innerHTML contem 2 elementos</p>
+    <p id="demo"></p>
+
+    <script>
+        var x = document.getElementsByTagName("li");
+        document.getElementById("demo").innerHTML = x [2].innerHTML;
+        console.log("pegando " + x[1].innerHTML);
+    </script>
+</body>
+</html>
